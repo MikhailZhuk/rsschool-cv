@@ -6,6 +6,7 @@
 * [VK](https://vk.com/id33673435)
 * [Skype](live:.cid.ed8e885f56c6782d)
 ### 2. Resume
+  
 
 ### 3. Skills
 * HTML5
@@ -13,8 +14,20 @@
 * JavaScript
 * SQL/DB
 
-
-
+### 4. Code examples
+    ``` javascript
+    const reverseString = (str) => {
+    let result ='';
+    let finish = str.length - 1;
+    for (let i =0; i <= finish; finish = finish - 1){
+    result=`${result}${str[finish]}`;
+    };
+    return result;
+    }
+    ```
+### 5.
+### 6.
+### 7. English +A1
 
 
 
@@ -28,7 +41,7 @@ freelance projects - wherever they had the opportunity to demonstrate skills the
 Also it would be awesome if you add links to source code)
 7. Education (including courses, seminars, lectures, online learning)
 8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
-Что должно содержать резюме младшего разработчика?
+
 
 ! Важно: напишите резюме на английском, если можете, если возможно
 
@@ -36,7 +49,7 @@ Also it would be awesome if you add links to source code)
 3. Резюме (ваша цель, пожелания, раскройте, что для вас важно, чего вы хотите и почему.
 Какая-то самопрезентация. В случае отсутствия опыта Junior Developer продает свой потенциал, свою страсть и способность быстро учиться. Вы не должны думать, что вас будут учить все, когда вы придете на работу. Быть младшим - значит всегда
 узнавать новое отовсюду и т. д.).
-4. Навыки (например, языки программирования, фреймворки, методологии, контроль версий, инструменты и т. Д.)
+
 5. Примеры кода (ПОСЛЕДНИЕ)
 6. Опыт (для младшего разработчика это означает всевозможный опыт: тесты кодирования, проекты из курсов,
 фриланс-проекты - везде, где у них была возможность продемонстрировать свои навыки.
