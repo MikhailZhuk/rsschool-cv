@@ -3,66 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Resume Mikhail Zhuk</title>
 </head>
 <body>
-    <h1 align="center" >Mikhail Zhuk</h1>   
-    <h2 align="center">Junior Front-End Developer</h2> 
-<hr color='red'>
-<main>
-    <strong style="font-size:20px">About me</strong>
-    <div>
-        <img src="https://github.com/mikhailzhuk.png?size=192" alt="My photo" title="Zhuk Mikhail" border="3"
-    </div>
-    <nav>
-        <div>
-            <strong style="font-size:20px">1. Contact Info:</strong>
-                <ul>  
-                    <li><a href="https://github.com/MikhailZhuk">GitHub</a></li>
-                    <li><a href="https://vk.com/id33673435">VK</a></li>
-                    <li><a href="live:.cid.ed8e885f56c6782d">Skype</a></li>
-                </ul>
-        </div>
-    </nav>
+    <main class="wrapper">    
+        <nav class="hat">
+          <div class="contact-img">
+            <h1 class="person-name">Mikhail Zhuk</h1>   
+            <h2 class="person-position">Junior Front-End Developer</h2> 
+            <strong class="points">1. Contact Info:</strong> 
+              <ul>    
+                <li><a href="https://github.com/MikhailZhuk"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://vk.com/id33673435"><i class="fab fa-vk"></i></a></li>
+                <li><a href="live:.cid.ed8e885f56c6782d"><i class="fab fa-skype"></i></a></li>
+                <li><a href="tel:+375292299451"><i class="fas fa-mobile-alt"></i></a></i></li>
+              </ul>
+          </div>
+            <figure>
+                <img  class="person-photo" src="https://github.com/mikhailzhuk.png?size=192" alt="My photo" title="Zhuk Mikhail">
+            </figure>
+        </nav>
 
-    <strong style="font-size:20px">2. Resume</strong>   
-    <p>My goal is to become a sought-after developer. Comprehend the front end and master the backend. I want to create very cool and beautiful websites and games. I model well in my head, I play checkers and chess very well, and I like to consider non-standard options for solving problems. I always try to complete the matter and glorify everything on the fly.</p>   
-        
-    <strong style="font-size:20px">3. Skills</strong>   
-    <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>SQL/DB</li>
-    </ul>      
-  
-    <strong style="font-size:20px">4. Code examples JavaScript</strong>
-        <pre>
-            const reverseString = (str) => {
-            let result ='';
-            let finish = str.length - 1;
-            for (let i =0; i <= finish; finish = finish - 1){
-            result=`${result}${str[finish]}`;
-            };
-            return result;
-            }
-        </pre>
+        <section class="date"> 
+            <section class="item">
+                <div class="conteiner1">
+                    <strong class="points">2. Resume</strong>   
+                    <p class="item-points-text">My goal is to become a sought-after developer. Comprehend
+                    the front end and master the backend. I want to create very cool and beautiful websites and games. I model well in my head, I play checkers and chess very well, and I like to consider non-standard options for solving problems. I always try to complete the matter and glorify everything on the fly.</p>   
+                </div>  
 
-    <strong style="font-size:20px">5. Experience</strong>
-        <p>Little's experience mostly homework.</p>
-    
-    <strong style="font-size:20px">6. Education</strong>
-        <ul>
-            <li>Brest State Technical University	Building 	Bachelor 	 	2019</li>
-            <li>Brest State Polytechnic College  Electronics	Technical school graduate 	 	2010</li>
-            <li>MyIT  Web-developer 2020</li>
-        </ul>
-    
-    <strong style="font-size:20px">7. English <b>+A1</b> </strong>
-        <p>I study in a group to this day from 09/16/2020</p>
+                <div class="conteiner1">
+                    <strong class="points">3. Skills</strong>   
+                    <ul class="points-most">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>SQL/DB</li>
+                    </ul>      
+                </div>  
 
-</main> 
-<footer>2020</footer>    
+                <div class="conteiner1">
+                    <strong class="points">4. Experience</strong>
+                        <p class="item-points-text">Little's experience mostly homework.</p>
+                </div>
+            </section>
+
+            <section class="item">    
+                <div class="conteiner2">
+                    <strong class="points">5. Code examples JavaScript</strong>
+                        <code>
+                            <p class="item-points-text">const reverseString = (str) => {<br>
+                            let result ='';<br>
+                            let finish = str.length - 1;<br>
+                            for (let i =0; i <= finish; finish = finish - 1){<br>
+                            result=`${result}${str[finish]}`;<br>
+                            };<br>
+                            return result;
+                            }</p>
+                        </code>
+                </div>
+
+                <div class="conteiner2">
+                    <strong class="points">6. Education</strong>
+                        <ul class="points-most">
+                            <li>Brest State Technical University	Building 	Bachelor 	 	2019</li>
+                            <li>Brest State Polytechnic College  Electronics	Technical school graduate 	 	2010</li>
+                            <li>MyIT  Web-developer 2020</li>
+                        </ul>
+                </div>
+
+                <div class="conteiner2">
+                    <strong class="points">7. English <b>+A1</b> </strong>
+                        <p class="item-points-text">I study in a group to this day from 09/16/2020</p>
+                </div>
+            </section>
+        </section>
+    </main> 
+  <footer>2020</footer>    
 </body>
 </html>
-
